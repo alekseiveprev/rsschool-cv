@@ -2,7 +2,7 @@
 ***
 ## Contacts
 * __Location:__  Minsk; Belarus
-* __Phone:__ +375297175100
+* __Phone:__ +375 29 7175100
 * __email:__ alekseiveprev@gmail.com
 * __github:__ [alekseiveprev](https://github.com/alekseiveprev)
 ***
