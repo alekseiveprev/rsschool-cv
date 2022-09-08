@@ -5,7 +5,7 @@
 * __Phone:__ +375297175100
 * __email:__ alekseiveprev@gmail.com
 * __github:__ [alekseiveprev](https://github.com/alekseiveprev)
-
+***
 ***
 ## About Me:
 I learn Front-End Development it is very interesting!
