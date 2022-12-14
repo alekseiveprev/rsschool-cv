@@ -1,4 +1,99 @@
 body{
-    background-color: rgb(43, 226, 73);
-    background-color: blueviolet;
+    /* background-color: rgb(43, 226, 73);
+    background-color: blueviolet; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+/* чтобы прижать footer используем код ниже  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+  }
+.container{
+    max-width: 1440px;
+    min-width: 780px; 
+    margin: 0 auto;
+
+}
+html {
+    scroll-behavior: smooth; /* Чтобы прокрутка происходила плавно */
+  }
+
+
+
+
+
+.h1{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    max-width: 734px;
+    margin: 0 auto 17px;
+    color: darkslategray;
+
+}
+h2{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    max-width: 734px;
+    margin: 0 auto 17px;
+    color: darkslategray;
+
+
+}
+.header {
+    background-color: rgb(97, 147, 132);
+    min-width: 780px; 
+   /*  background-color: brown; */
+    /* min-height: 100px; */
+    margin: 0 auto;
+}
+
+.separatingBlock-item{
+
+    background-color: rgba(133, 100, 59, 0.459);
+    background-color: rgba(218, 198, 173, 0.656);
+       height: 10px;
+}
+.nav_list-flex {
+
+   /*  display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav_link {
+}
+/* footer */
+.footer{
+    background-color: darkslategray;
+    min-width: 900px;
+}
+.rsLogo{
+    width: 80px;
+    height: 80px;
 }
