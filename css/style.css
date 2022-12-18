@@ -11,9 +11,9 @@ body{
     margin: 0;
     padding: 0;
 /* чтобы прижать footer используем код ниже  */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 * {
@@ -23,29 +23,25 @@ body{
     max-width: 1440px;
     min-width: 780px; 
     margin: 0 auto;
-   /*  text-align: center; */
+    text-align: center; 
 
 }
+
+
+
+.main_container, .contacts, .aboutMe, .skills_container, .code_container, .experience_container, .education_container   {
+    border-bottom: 5px solid  rgba(218, 198, 173, 0.656);;; 
+}
+
 html {
     scroll-behavior: smooth; /* Чтобы прокрутка происходила плавно */
   }
-
-  .flex {
-    display: flex;
-    justify-content:space-between ;
-    flex-wrap: wrap;
-  }
-
-  .container_flex{
-   border: 1px red solid;
-   min-width: 600;
-   flex-shrink: 1;
-
-    /* width: 50%; */
-    /* display: block; */
-  }
-
-
+  .round {
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid  rgb(102, 130, 121); /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+   }
+  
 
 
 .h1{
@@ -78,15 +74,11 @@ h2{
    
    /*  background-color: brown; */
     /* min-height: 100px; */
-   /*  margin: 0 auto; */
+    margin: 0 auto;
+    min-width: 900px;
 }
 
-.separatingBlock-item{
 
-    background-color: rgba(133, 100, 59, 0.459);
-    background-color: rgba(218, 198, 173, 0.656);
-       height: 10px;
-}
 .nav_list-flex {
 
    /*  display: flex;
@@ -140,3 +132,42 @@ h2{
     width: 80px;
     height: 80px;
 }
+
+
+
+.footer_info, .github_link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 95px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0 auto 17px;
+    color: rgb(255, 255, 255);
+    text-decoration: none 
+}
+.footer_info{
+    margin: 0px;
+}
+
+
+.conteiner_footer{
+    min-width: 780px; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; /* убираем маркеры списка */
+    height: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    padding: 0 50px;
+    line-height: 50px; 
+
+    
+}
+
+/* .conteiner_footer{
+    text-align: justify;
+} */
