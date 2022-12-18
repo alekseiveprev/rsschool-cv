@@ -1,0 +1,173 @@
+body{
+    /* background-color: rgb(43, 226, 73);
+    background-color: blueviolet; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+/* чтобы прижать footer используем код ниже  */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+* {
+    box-sizing: border-box;
+  }
+.container{
+    max-width: 1440px;
+    min-width: 780px; 
+    margin: 0 auto;
+    text-align: center; 
+
+}
+
+
+
+.main_container, .contacts, .aboutMe, .skills_container, .code_container, .experience_container, .education_container   {
+    border-bottom: 5px solid  rgba(218, 198, 173, 0.656);;; 
+}
+
+html {
+    scroll-behavior: smooth; /* Чтобы прокрутка происходила плавно */
+  }
+  .round {
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid  rgb(102, 130, 121); /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+   }
+  
+
+
+.h1{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    max-width: 734px;
+    margin: 0 auto 17px;
+    color: darkslategray;
+
+}
+h2{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    max-width: 734px;
+    margin: 0 auto 17px;
+    color: darkslategray;
+
+
+}
+.header {
+    background-color: rgb(102, 130, 121);
+   
+   /*  background-color: brown; */
+    /* min-height: 100px; */
+    margin: 0 auto;
+    min-width: 900px;
+}
+
+
+.nav_list-flex {
+
+   /*  display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+    min-width: 780px; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; /* убираем маркеры списка */
+    height: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    padding: 0 50px;
+    line-height: 50px; 
+  
+    
+}
+.nav_link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0 auto 17px;
+    color: rgb(255, 255, 255);
+    text-decoration: none /* Отменяем подчеркивание у ссылки */
+
+    
+}
+
+.nav_link a:link {
+   /*  color: #8383c1; /* Цвет ссылок */
+    padding: 2px; /* Поля вокруг текста */ 
+   }
+   .nav_link a:hover {
+    background: darkslategray; /* Цвет фона под ссылкой */ 
+   /*  color: #ffe; Цвет ссылки */ 
+   } 
+
+
+/* footer */
+.footer{
+    background-color: darkslategray;
+    min-width: 900px;
+}
+.rsLogo{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+.footer_info, .github_link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 95px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0 auto 17px;
+    color: rgb(255, 255, 255);
+    text-decoration: none 
+}
+.footer_info{
+    margin: 0px;
+}
+
+
+.conteiner_footer{
+    min-width: 780px; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; /* убираем маркеры списка */
+    height: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    padding: 0 50px;
+    line-height: 50px; 
+
+    
+}
+
+/* .conteiner_footer{
+    text-align: justify;
+} */
